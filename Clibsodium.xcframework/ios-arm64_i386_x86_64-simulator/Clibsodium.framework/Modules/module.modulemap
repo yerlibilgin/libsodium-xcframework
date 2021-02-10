@@ -1,0 +1,5 @@
+framework module Clibsodium [extern_c] {
+    umbrella header "Clibsodium.h"
+    module * { export * }
+    export *
+}
